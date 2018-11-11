@@ -6,6 +6,9 @@
 html,body{
   height: 100%;
 }
+.right{
+  float: right;
+}
 .link{
   list-style: none;
     display: inline-block;
@@ -29,8 +32,9 @@ p>a{
 .linkli{
   display:inline;
   margin-left: 25px;
-
 }
+
+
 .header-left{
   float: left;
   margin-left: 80px;
@@ -68,13 +72,22 @@ height: 600px;
     width: 450px;
     margin-bottom: 50px;
 }
+.slogan img{
+  width:450px;
+
+}
+.icon-QRcode {
+    float: right;
+    position: relative;
+    width: 50px;
+    height: 50px;
+  }
 .btn-primary {
     display: inline-block;
-    background: #fff;
+    
     border-radius: 5px;
     margin-left: 10px;
     width: 130px;
-    height: 50px;
     -webkit-transition: .15s opacity;
     transition: .15s opacity;
     -webkit-transition-delay: .15s;
@@ -82,7 +95,7 @@ height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 1px 1px 7px 2px rgba(0,0,0,.54);
+    
 }
 .btn-list{
     text-align: center;
@@ -97,8 +110,15 @@ height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(C:\Users\Administrator\Desktop\douyin\douyin\images\android.png);
+    
 }
+
+.btn-primary img{
+  width: 130px;
+  box-shadow: 1px 1px 7px 2px rgba(0,0,0,.54);
+}
+
+
 .page-footer {
     font-size: 14px;
     width: 100%;
